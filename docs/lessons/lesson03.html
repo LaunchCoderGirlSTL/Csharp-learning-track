@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Lesson 2: Projects and Variables &#8212; CoderGirl  documentation</title>
+    <title>Lesson 3: If Statements and Operators &#8212; CoderGirl  documentation</title>
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/css/launchcode.css" type="text/css" />
@@ -72,13 +72,12 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson02.html#errata">Errata</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 2: Projects and Variables</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 3: If Statements and Operators</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#prep-work">Prep Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson04.html">Lesson 2: Projects and Variables</a><ul>
@@ -358,7 +357,12 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-1">Lesson 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-2">Lesson 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-3">Lesson 3</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -388,25 +392,60 @@
   <div class="row">
     <div class="col-md-12 content">
       
-  <div class="section" id="lesson-2-projects-and-variables">
-<span id="lesson-2-projects-and-variables"></span><h1>Lesson 2: Projects and Variables<a class="headerlink" href="#lesson-2-projects-and-variables" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="lesson-3-if-statements-and-operators">
+<span id="lesson-3-if-statements-and-operators"></span><h1>Lesson 3: If Statements and Operators<a class="headerlink" href="#lesson-3-if-statements-and-operators" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="prep-work">
 <span id="prep-work"></span><h2>Prep Work<a class="headerlink" href="#prep-work" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Complete this online <a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/hello-world">Hello World exercise</a> to practice some coding techniques you have already learned</li>
+<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=83b9cRQIC_9706218949">this lesson</a> from the C# For Absolute Beginners course</li>
+<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vY3lKGSIC_4806218949">this lesson</a> from the C# For Absolute Beginners course</li>
+<li>Read <a class="reference external" href="http://deviq.com/don-t-repeat-yourself/">this article</a> to understand this basic software principle to make your code better</li>
+<li>Complete this <a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/numbers-in-csharp">online exercise</a> to practice working with numbers in C#</li>
+<li>Complete this <a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/interpolated-strings">online exercise</a> to use a newer C# feature for putting strings together</li>
+</ul>
 </div>
 <div class="section" id="learning-objectives">
 <span id="learning-objectives"></span><h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Make simple logical decisions in your code based on if statements</li>
+<li>Review the difference between Write() and WriteLine();</li>
+<li>Understand the difference between = and ==</li>
+<li>Understand what a code block is and how they apply to If statements</li>
+<li>Extend an If statement with else if and else</li>
+<li>Use the DRY principle (Don’t Repeat Yourself) by eliminating duplicate code</li>
+<li>Understand variable scope and how it relates to code blocks</li>
+<li>Understand when you do not need curly braces and how they affect code blocks</li>
+<li>Assign and concatenate strings with +=</li>
+<li>Write If decisions using the inline format using ? and :</li>
+<li>Format strings with numeric placeholders</li>
+<li>Understand statements, expressions, operators and operands</li>
+<li>Declare multiple variables in the same statement</li>
+<li>Write code using mathematical operators</li>
+</ul>
 </div>
 <div class="section" id="in-class-work">
 <span id="in-class-work"></span><h2>In-class Work<a class="headerlink" href="#in-class-work" title="Permalink to this headline">¶</a></h2>
+<p>Here is a video of what we did in class:</p>
 </div>
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=gczR4ESIC_8306218949">If Decision Statement Assessment</a> and upload a screenshot of your score into Canvas.</li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vq8jiCSIC_3706218949">Operators, Expressions, and Statements Assessment</a> and upload a screenshot of your score into Canvas.</li>
+<li>Create a program that asks the user of the number of a month and outputs the name of the month using the if, else if and else statements. Upload your program to a new repository called CG 3-1.</li>
+<li>Ask the user to guess a number between 1 and 10. If they enter 8, output You Win!. Otherwise, output You Lose. Do this using an inline if statement. Upload your program to a new repository called CG 3-2.</li>
+<li>Create a program to demonstrate your understanding of basic C# skills. Define the following C# terms in your own words: statement, expression, operator, operand as code comments. After each definition, write some code that demonstrates the use of each of these. Upload your program to a new repository called CG 3-3.</li>
+<li>Create a simple calculator that asks the user to input two different numbers and whether they want to add, subtract, multiple or divide them. Output the answer back to the console. Be sure to include clear code comments to make your code readable to other programmers and your future self. Upload your program to a new repository called CG 3-4.</li>
+</ul>
 </div>
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="errata">
-<span id="errata"></span><h2>Errata<a class="headerlink" href="#errata" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.dreamincode.net/downloads/ref_sheets/csharp_basics_reference_sheet.pdf">C# Reference Sheet Basics</a> - A nice cheat sheet that contains the operators you just learned along with more topics we will be covering in the future</li>
+<li><a class="reference external" href="https://blog.metova.com/dry-programming-practices">DRY Programming Practices</a> - Another article to help you understand the DRY principle. This one goes a little deeper and talks about some concepts we will learn in the future.</li>
+<li><a class="reference external" href="https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161">3 Software Principles You Must Understand</a> - Talks about the DRY principle as well as two other fundamental principles of software development.</li>
+</ul>
 </div>
 </div>
 

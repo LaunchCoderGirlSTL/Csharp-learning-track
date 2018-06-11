@@ -3,8 +3,8 @@
 * Follow along with [this article]() to understand GitHub and set up your free account
 * [Continue]() the GitHub for Beginners series to get a better understanding
 * Follow [this]() to set up Visual Studio to work with GitHub to make things easier for uploading and sharing your projects
-* Watch and code along with [this lesson]() from the C# for Absolute Beginners course
-* Watch and code along with [this lesson]() from the C# for Absolute Beginners course
+* Watch and code along with [this lesson]() from the C# For Absolute Beginners course
+* Watch and code along with [this lesson]() from the C# For Absolute Beginners course
 
 ## Learning Objectives
 * Create a GitHub account
@@ -29,8 +29,8 @@
 Here's a video of what we did in class:
 
 ## Assignments
-* Take the Working with Code Files, Projects, and Solutions [Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Kcqx4iIPC_1705244527) and upload a screenshot of your score into Canvas.
-* Take the Understanding Data Types and Variables [Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vq8jiCSIC_3706218949) and upload a screenshot of your score into Canvas.
+* Take the [Working with Code Files, Projects, and Solutions Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Kcqx4iIPC_1705244527) and upload a screenshot of your score into Canvas.
+* Take the [Understanding Data Types and Variables Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vq8jiCSIC_3706218949) and upload a screenshot of your score into Canvas.
 * Modify your HelloWorld program to prompt the user for their name and greet them by name. Upload your program to a new repository called CG 2-1.
 * Write a program to calculate the area of a rectangle and print the answer to the console. You should prompt the user for the dimensions. (What data types should the dimensions be?) Upload your program to a new repository called CG 2-2.
 * Create a program that combines three strings input by the user into one and prints the value to the console. Upload your program to a new repository called CG 2-3.

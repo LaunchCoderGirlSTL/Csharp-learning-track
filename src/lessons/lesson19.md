@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 19: Adaptive Challenge
 ## Prep Work
 
 ## Learning Objectives

@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 18: Adaptive Interfaces
 ## Prep Work
 
 ## Learning Objectives

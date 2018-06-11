@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 17: Styles Challenge
 ## Prep Work
 
 ## Learning Objectives

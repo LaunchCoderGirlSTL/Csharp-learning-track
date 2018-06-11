@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 16: Controls 2
 ## Prep Work
 
 ## Learning Objectives

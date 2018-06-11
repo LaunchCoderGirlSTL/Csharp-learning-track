@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 4: For Statements and Arrays
 ## Prep Work
 
 ## Learning Objectives

@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 21: Project Weather
 ## Prep Work
 
 ## Learning Objectives

@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 5: Methods and While Statements
 ## Prep Work
 
 ## Learning Objectives

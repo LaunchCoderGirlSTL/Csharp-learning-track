@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 8: Scope and Namespaces
 ## Prep Work
 
 ## Learning Objectives

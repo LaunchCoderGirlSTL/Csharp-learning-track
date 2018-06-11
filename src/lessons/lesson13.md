@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 13: Layout Challenges
 ## Prep Work
 
 ## Learning Objectives

@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 22: Project Album Cover Match Game
 ## Prep Work
 
 ## Learning Objectives

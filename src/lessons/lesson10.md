@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 10: LINQ and Switch Statements 
 ## Prep Work
 
 ## Learning Objectives

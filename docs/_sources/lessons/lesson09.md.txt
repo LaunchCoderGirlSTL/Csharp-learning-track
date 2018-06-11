@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 9: Assemblies and Collections
 ## Prep Work
 
 ## Learning Objectives

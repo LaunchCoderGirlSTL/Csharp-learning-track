@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 20: Project SoundBoard
 ## Prep Work
 
 ## Learning Objectives

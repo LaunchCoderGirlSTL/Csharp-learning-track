@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 23: Project Hero Explorer
 ## Prep Work
 
 ## Learning Objectives

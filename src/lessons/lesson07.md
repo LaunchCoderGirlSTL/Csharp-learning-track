@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 7: Classes
 ## Prep Work
 
 ## Learning Objectives

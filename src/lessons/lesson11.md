@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 11: Exceptions and Events
 ## Prep Work
 
 ## Learning Objectives

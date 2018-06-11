@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 6: Strings and Dates
 ## Prep Work
 
 ## Learning Objectives

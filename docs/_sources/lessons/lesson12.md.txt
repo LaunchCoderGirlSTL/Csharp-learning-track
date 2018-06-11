@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 12: XAML
 ## Prep Work
 
 ## Learning Objectives

@@ -1,4 +1,4 @@
-# Lesson 2: Projects and Variables
+# Lesson 15: Hamburger Menu Challenge
 ## Prep Work
 
 ## Learning Objectives

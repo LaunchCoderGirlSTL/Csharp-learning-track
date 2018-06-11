@@ -1,12 +1,11 @@
-# Lesson 1:
-## Learning Objectives
-*
-
+# Lesson 2: Projects and Variables
 ## Prep Work
+
+## Learning Objectives
 
 ## In-class Work
 
-## Assignment
+## Assignments
 
 ## Resources
 

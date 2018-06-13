@@ -4,7 +4,7 @@
 * Learn about the content and structure covered in the first half of this unit in the [Course Introduction](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) video
 * Read [this article](https://www.microsoft.com/net/learn/what-is-dotnet) to learn about what .NET is and what you can build with it
 * Set up Visual Studio by following along with the Getting Started with Visual Studio [video](https://www.visualstudio.com/vs/getting-started/). When Jon discussed Workloads to choose during setup, choose Universal Windows Platform development and .NET Core cross-platform development
-* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=p90QdGQIC_7106218949) from the C# For Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=p90QdGQIC_7106218949), Creating Your First C# Program, from the C# For Absolute Beginners course
 * Learn what's happening within a basic C# program with [this video](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=BQvowJQIC_306218949)
 * Complete all 6 steps of [this in-browser tutorial](https://www.microsoft.com/net/learn/in-browser-tutorial/1) to get some practice with C#
 

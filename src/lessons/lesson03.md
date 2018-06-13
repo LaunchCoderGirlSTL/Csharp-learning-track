@@ -1,8 +1,8 @@
 # Lesson 3: If Statements and Operators
 ## Prep Work
 * Complete this online [Hello World exercise](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/hello-world) to practice some coding techniques you have already learned
-* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=83b9cRQIC_9706218949) from the C# For Absolute Beginners course
-* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vY3lKGSIC_4806218949) from the C# For Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=83b9cRQIC_9706218949) about the If Decision Statement from the C# For Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vY3lKGSIC_4806218949) about Operations, Expressions, and Statements from the C# For Absolute Beginners course
 * Read [this article](http://deviq.com/don-t-repeat-yourself/) to understand this basic software principle to make your code better
 * Complete this [online exercise](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/numbers-in-csharp) to practice working with numbers in C#
 * Complete this [online exercise](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/interpolated-strings) to use a newer C# feature for putting strings together

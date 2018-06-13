@@ -1,10 +1,10 @@
 # Lesson 2: Projects and Variables
 ## Prep Work
-* Follow along with [this article]() to understand GitHub and set up your free account
-* [Continue]() the GitHub for Beginners series to get a better understanding
-* Follow [this]() to set up Visual Studio to work with GitHub to make things easier for uploading and sharing your projects
-* Watch and code along with [this lesson]() from the C# For Absolute Beginners course
-* Watch and code along with [this lesson]() from the C# For Absolute Beginners course
+* Follow along with [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) to understand GitHub and set up your free account
+* [Continue](https://readwrite.com/2013/10/02/github-for-beginners-part-2/) the GitHub for Beginners series to get a better understanding
+* Follow [this article](https://blogs.msdn.microsoft.com/benjaminperkins/2017/04/04/setting-up-and-using-github-in-visual-studio-2017/) to set up Visual Studio to work with GitHub to make things easier for uploading and sharing your projects
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vE6GqMQIC_506218949), Working with Code Files, Projects, and Solutions, from the C# For Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Y6D7PQQIC_5406218949), Understanding Data Types and Variables, from the C# For Absolute Beginners course
 
 ## Learning Objectives
 * Create a GitHub account

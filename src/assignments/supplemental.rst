@@ -1,5 +1,0 @@
-Methods Review
-==============
-
-Objectives
-----------

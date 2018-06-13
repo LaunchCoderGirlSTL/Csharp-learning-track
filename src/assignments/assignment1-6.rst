@@ -1,5 +1,0 @@
-Strings and Dates
-=================
-
-Objectives
-----------

@@ -1,5 +1,0 @@
-Loops and Arrays
-================
-
-Objectives
-----------

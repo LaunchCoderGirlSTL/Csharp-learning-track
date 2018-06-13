@@ -1,5 +1,0 @@
-MVC Wrap Up
-===========
-
-Objectives
-----------

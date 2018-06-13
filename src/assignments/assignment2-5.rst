@@ -1,5 +1,0 @@
-Collections
-===========
-
-Objectives
-----------

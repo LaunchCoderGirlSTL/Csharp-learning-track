@@ -86,7 +86,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson04.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson04.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson04.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson04.html#errata">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lesson04.html#debugging-assessment">Debugging Assessment</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 5: Methods and While Statements</a><ul>
@@ -104,7 +104,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson07.html">Lesson 7: Classes</a><ul>
@@ -113,7 +112,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson07.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson07.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson07.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson07.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson08.html">Lesson 8: Scope and Namespaces</a><ul>
@@ -122,7 +120,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson08.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a><ul>
@@ -266,6 +263,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-1">Lesson 1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-2">Lesson 2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-3">Lesson 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-4">Lesson 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-5">Lesson 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-6">Lesson 6</a></li>
 </ul>
 </li>
 </ul>
@@ -303,11 +303,26 @@
 <span id="prep-work"></span><h2>Prep Work<a class="headerlink" href="#prep-work" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=gr5buWQIC_206218949">this lesson</a> on Defining and Calling Methods from the C# for Absolute Beginners course</li>
+<li>Read <a class="reference external" href="https://webdevstudios.com/2015/04/09/fundamentals-writing-clean-code/">an article</a> explaining the term “clean code” and several examples of applying the concept. Note that this article is not using C#, but these are general programming concepts that still apply</li>
+<li>Read <a class="reference external" href="https://www.c-sharpcorner.com/uploadfile/puranindia/comments-in-C-Sharp/">this article</a> that contains tips on what and why to comment in code</li>
+<li>Read <a class="reference external" href="https://docs.microsoft.com/en-us/visualstudio/ide/reference/generate-xml-documentation-comments">this article</a> on how to add comments to your methods that show up as help in IntelliSense</li>
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=l5iWxYQIC_1306218949">this lesson</a> about the While Iteration Statement from the C# for Absolute Beginners course</li>
 </ul>
 </div>
 <div class="section" id="learning-objectives">
 <span id="learning-objectives"></span><h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Create your own methods to reuse code</li>
+<li>Pass input parameters into methods</li>
+<li>Return output values from methods</li>
+<li>Overload a method with the same name but different parameters</li>
+<li>Learn how to use IntelliSense to view the parameters a method is expecting</li>
+<li>Reverse an array into the opposite order</li>
+<li>Concatenate an array of strings into a single string</li>
+<li>Loop until a condition is met with while loops and do loops</li>
+<li>Convert input into numbers variables</li>
+<li>Clear the console of all output</li>
+</ul>
 </div>
 <div class="section" id="in-class-work">
 <span id="in-class-work"></span><h2>In-class Work<a class="headerlink" href="#in-class-work" title="Permalink to this headline">¶</a></h2>
@@ -315,12 +330,27 @@
 </div>
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=qKI17KSIC_8706218949">Defining and Calling Methods Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=RefC7MSIC_3306218949">While Iteration Statement Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Create a program that asks the user to enter their first name. Then, have it enter their last name. Create a method that combines the first and last name and returns it as a new value. Print the new value. Upload your program to a new repository called CG 5-1</li>
+<li>Remember our simple calculator program from Class 3? Update the application so that each of the math calculations (add, subtract, multiply, divide) is each in its own method. The methods should return the value and the main method should print the value. Make sure your methods have XML comments for IntelliSense. Upload your program to a new repository called CG 5-2</li>
+<li>Create a dice game to see who can get to 20 first. You will roll two 6-sided dice and add up the numbers. Then the computer gets to go, and it does the same. This process will repeat until either you or the computer wins. You should put the rolling of dice into its own method. Make sure your methods have XML comments for IntelliSense. Upload your program to a new repository called CG 5-3</li>
+</ul>
 </div>
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.udemy.com/clean-code/">Learn the Art of Writing Clean Code</a> - A video series on how to write clean, easy-to-read code</li>
+<li><a class="reference external" href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/">Clean Code</a> and <a class="reference external" href="https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/">Clean Coder</a> - Two highly praised books from Bob Martin on how to write better code. Also available in entertaining, though somewhat bizarre, <a class="reference external" href="https://cleancoders.com/">video series</a></li>
+<li><a class="reference external" href="https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/">Code Complete</a> - Another book on writing clean code. Also highly regarded as one of the best</li>
+</ul>
 </div>
 <div class="section" id="errata">
 <span id="errata"></span><h2>Errata<a class="headerlink" href="#errata" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>The helper methods projects that Bob makes available for download are written and compiled for the .NET Framework version 4. As a reminder, we are using .Net Core in class, which is a newer version of .NET. In this case, the code is the same for .NET Framework and .NET Core</li>
+</ul>
 </div>
 </div>
 

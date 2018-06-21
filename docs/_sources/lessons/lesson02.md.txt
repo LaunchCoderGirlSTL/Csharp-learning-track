@@ -41,6 +41,7 @@ Here's a video of what we did in class:
 * [GitHub for Windows Users](https://mva.microsoft.com/en-US/training-courses/github-for-windows-users-16749) - GitHub training from Microsoft aimed specifically at Windows users
 * [GitHub Desktop](https://desktop.github.com/) - The official graphical user interface for GitHub
 * [SourceTree](https://www.sourcetreeapp.com/) - A popular alternative graphical user interface for Git
+* [GitHub Succinctly](https://www.syncfusion.com/ebooks/github_succinctly) - A free eBook
 
 ## Errata
 * **Working with Code Files, Projects, and Solutions:** The list of files in Bob's project will be slightly different than in yours. This is because we're using a newer version of .NET  

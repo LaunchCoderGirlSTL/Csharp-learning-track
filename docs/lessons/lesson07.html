@@ -86,7 +86,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson04.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson04.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson04.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson04.html#errata">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lesson04.html#debugging-assessment">Debugging Assessment</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson05.html">Lesson 5: Methods and While Statements</a><ul>
@@ -104,7 +104,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 7: Classes</a><ul>
@@ -113,7 +112,6 @@
 <li class="toctree-l2"><a class="reference internal" href="#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson08.html">Lesson 8: Scope and Namespaces</a><ul>
@@ -122,7 +120,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson08.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a><ul>
@@ -266,6 +263,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-1">Lesson 1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-2">Lesson 2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-3">Lesson 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-4">Lesson 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-5">Lesson 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-6">Lesson 6</a></li>
 </ul>
 </li>
 </ul>
@@ -308,6 +308,13 @@
 </div>
 <div class="section" id="learning-objectives">
 <span id="learning-objectives"></span><h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Understand the difference between a class and an object</li>
+<li>Define your own custom class</li>
+<li>Create an instance or object from that class</li>
+<li>Add properties to classes</li>
+<li>Add methods to classes</li>
+</ul>
 </div>
 <div class="section" id="in-class-work">
 <span id="in-class-work"></span><h2>In-class Work<a class="headerlink" href="#in-class-work" title="Permalink to this headline">¶</a></h2>
@@ -315,12 +322,26 @@
 </div>
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Take the <a class="reference external" href="#">Understanding Classes Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Take the <a class="reference external" href="#">More About Classes and Methods Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Pick one or more of the following groups of classes, and diagram your design for each (including methods and properties). Be sure to use lines and arrows to indicate inheritance relationships, and to include data and behavior that somebody using your classes would likely want.<ul>
+<li>Shape, Square, Rectangle, Circle</li>
+<li>Computer, Desktop, Laptop, Smartphone</li>
+<li>Student, GraduateStudent, UndergraduateStudent</li>
+</ul>
+</li>
+<li>For one of the groups of classes above, implement your design and test it in a Program.cs class</li>
+<li>Consider the group of classes that you designed. Suppose you had a web program that used these classes, and you needed to assign a unique ID to every object created from one of these classes within the application. In other words, each such class should have an Id property, and no two objects created from any of the classes may have the same ID value. Create an abstract class, AbstractEntity, that contains the behavior for assigning and accessing such a unique ID for each class that extends it. Add this class to your program above, and add AbstractEntity to the class hierarchy in the correct place.</li>
+<li>If you have a project idea or two brewing, try to model out what you think the objects and classes would look like. If you don’t have an idea yet, pretend you are going to create a timesheet application where employees can log their work hours, sick time and vacation time and create a model of what that might look like. As a second run at modeling, try to model out the classes and objects you would find in the game of checkers.</li>
+<li>Your homework this week is to create a program that contains a deck of cards and randomly draws one. You will need a Card class to store information about each individual card. The Card class should have a method that gives you the full card name like “2 of Hearts”. You will need a Deck class that contains an array of all the cards. The Deck class will need a method to draw a random card. Your main method in the Program class should create a deck object, draw a random card and display the value. If you have extra time, you could see how this program can grow by creating different types of card games like War or Blackjack</li>
+</ul>
 </div>
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="errata">
-<span id="errata"></span><h2>Errata<a class="headerlink" href="#errata" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li></li>
+</ul>
 </div>
 </div>
 

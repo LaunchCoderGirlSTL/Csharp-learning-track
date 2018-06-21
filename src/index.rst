@@ -1,6 +1,6 @@
 Course Overview
 ===============
-C# (pronounced C Sharp) is an object-oriented programming language developed by Microsoft whose functionality is expanded by the .NET framework and Visual Studio. This class walks students through the basics of C# Programming, working up to more advanced ideas and guiding students to teach them how to develop C# programs and projects.
+C# (pronounced C Sharp) is an object-oriented programming language developed by Microsoft whose functionality is expanded by the .NET framework and Visual Studio. This class walks students through the basics of C# Programming, working up to more advanced concepts and guiding students to teach them to develop C# programs and projects. This course will help any interested students become comfortable with C# development.
 
 Lessons
 =======

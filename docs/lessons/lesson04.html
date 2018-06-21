@@ -86,7 +86,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#errata">Errata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#debugging-assessment">Debugging Assessment</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson05.html">Lesson 5: Methods and While Statements</a><ul>
@@ -104,7 +104,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson06.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson07.html">Lesson 7: Classes</a><ul>
@@ -113,7 +112,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson07.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson07.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson07.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson07.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson08.html">Lesson 8: Scope and Namespaces</a><ul>
@@ -122,7 +120,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson08.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a><ul>
@@ -266,6 +263,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-1">Lesson 1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-2">Lesson 2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-3">Lesson 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-4">Lesson 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-5">Lesson 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-6">Lesson 6</a></li>
 </ul>
 </li>
 </ul>
@@ -302,13 +302,36 @@
 <div class="section" id="prep-work">
 <span id="prep-work"></span><h2>Prep Work<a class="headerlink" href="#prep-work" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Work through <a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/branches-and-loops">this guide</a> on Branching and Loops in C#</li>
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=chmm8TQIC_8106218949">this lesson</a> about the for Iteration Statement from the C# for Absolute Beginners course</li>
+<li>Learn the power of the debugging tools built into Visual Studio through <a class="reference external" href="https://channel9.msdn.com/Blogs/Seth-Juarez/Debugging-101-in-Visual-Studio-with-Andrew-Hall">this video</a>.</li>
+<li>Re-enforce what you just learned with <a class="reference external" href="https://blogs.msdn.microsoft.com/visualstudio/2015/08/11/introduction-to-debugging/">this article</a> based on the previous video.</li>
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=CIsZZWQIC_8306218949">this lesson</a>, Understanding Arrays, from the C# for Absolute Beginners course</li>
+<li>Another <a class="reference external" href="http://csharp.net-tutorials.com/collections/arrays/">explanation</a> on arrays.</li>
+<li>Complete <a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/branches-and-loops">this online exercise</a> to practice working with if statements and loops</li>
 </ul>
 </div>
 <div class="section" id="learning-objectives">
 <span id="learning-objectives"></span><h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Loop through the same block of code multiple times</li>
+<li>Explain the 3 parts of a for loop</li>
+<li>Let Visual Studio write a for loop with a Code Snippet</li>
+<li>Know how to stop executing a loop before it is complete</li>
+<li>Pause execution of your program with a breakpoint</li>
+<li>Step through your code one line at a time while paused</li>
+<li>Pause execution of your program when a condition is met</li>
+<li>Inspect and change the value of a variable in Visual Studio using your cursor</li>
+<li>Inspect and change the value of a variable in Visual Studio using the Locals window</li>
+<li>Inspect and change the value of a variable in Visual Studio using the Immediate window</li>
+<li>Explain the differences between the Immediate and Command window</li>
+<li>Explain what an array is</li>
+<li>Declare an array of values</li>
+<li>Declare an array of values and initialize it with starting values at the same time</li>
+<li>Determine the length of an array</li>
+<li>Loop through the values of an array using a for loop</li>
+<li>Loop through the values of an array using a foreach loop</li>
+<li>Convert strings into an array of individual characters</li>
+</ul>
 </div>
 <div class="section" id="in-class-work">
 <span id="in-class-work"></span><h2>In-class Work<a class="headerlink" href="#in-class-work" title="Permalink to this headline">¶</a></h2>
@@ -317,14 +340,31 @@
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li></li>
+<li>Take the <a class="reference external" href="#">For Iteration Statement Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Take the <a class="reference external" href="#">Understanding Arrays Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Take the online assessment on debugging (see below)</li>
+<li>Create a program that asks the user to enter a number. Loop from 2 to 20 and multiply the loop value by the number the user entered and output the value each time. When the loop is finished, output the sum of all previous values. Upload your program to a new repository called CG 4-1</li>
+<li>Create and initialize in a single line an array with the following values: <code class="docutils literal notranslate"><span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">5,</span> <span class="pre">8</span></code>. Then loop through the array and print out each value. Upload your program to a new repository called CG 4-2</li>
+<li>Create a program that asks the user to enter up to 30 names and stores them in an array. If the user hits enter without entering a name, assume they are done and stop asking them. Then, you will randomly choose a name from the array and write it to the console as the winner. We haven’t learned how to randomize yet, so you’ll need to stretch your Googling skills. Then, you will write the list of other names that did not win. Upload your program to a new repository called CG 4-3.</li>
 </ul>
 </div>
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Debugging">Debugging</a> - The Wikipedia article on debugging</li>
+<li><a class="reference external" href="https://softwareengineering.stackexchange.com/questions/110804/why-are-zero-based-arrays-the-norm">Why are zero-based arrays the norm?</a> - Arrays starting at 0 vs starting at 1 is a topic many programmers like to argue about. This discussion on Stack Exchange is a good example of the debate</li>
+</ul>
 </div>
-<div class="section" id="errata">
-<span id="errata"></span><h2>Errata<a class="headerlink" href="#errata" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="debugging-assessment">
+<span id="debugging-assessment"></span><h2>Debugging Assessment<a class="headerlink" href="#debugging-assessment" title="Permalink to this headline">¶</a></h2>
+<p>Please answer all the following questions in your own words:</p>
+<ol class="simple">
+<li>Explain what debugging is.</li>
+<li>What is a breakpoint?</li>
+<li>How do you step through your code line by line?</li>
+<li>How do you add a watch to a variable?</li>
+<li>What is the immediate window? What can you do in it?</li>
+</ol>
 </div>
 </div>
 

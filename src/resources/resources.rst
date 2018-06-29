@@ -37,4 +37,31 @@ Lesson 5
 Lesson 6
 --------
 - `Strings (C# Programming Guide) <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/>`_ - Official documentation on strings, including a complete list of special characters
-- `Standard Numeric Format Strings <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings>`_ - A list of formatting options for displaying numbers as strings 
+- `Standard Numeric Format Strings <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings>`_ - A list of formatting options for displaying numbers as strings
+
+Lesson 7
+--------
+- `Object Technology: A Manager's Guide <https://www.amazon.com/Object-Technology-Managers-David-Taylor/dp/0201309947>`_ - A great introduction into object-oriented design and technology from a very non-technical perspective
+
+Lesson 8
+--------
+- `Self-contained .NET Core Applications <https://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx>`_ - A nice article on how to wrap your application as an executable so your user does not need to run the dotnet run command
+- `Runtime Package Store <https://docs.microsoft.com/en-us/dotnet/core/deploying/runtime-store>`_ - Starting with .NET Core 2.0, it's possible to package against a known set of packages that exist in the target environment
+
+Lesson 10
+---------
+- `101 LINQ Samples <https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b>`_ - A large collection of sample code for LINQ
+
+Lesson 11
+---------
+- `Syncfusion Succinctly Series <https://www.syncfusion.com/ebooks>`_ - A huge list of free eBooks aimed at helping you learn new things quickly. Be sure to check out `C# <https://www.syncfusion.com/ebooks/csharp>`_ and `.NET Core <https://www.syncfusion.com/ebooks/net_core_succinctly>`_.
+- `Saint Louis .NET User Group <https://www.meetup.com/St-Louis-NET-User-Group/>`_ - There is a local, free monthly meetup of .NET professionals for learning new things and networking with peers
+- `dev up <https://devupconf.org/>`_ - A very affordable annual developer conference here in St. Louis that covers a lot of topics on .NET
+- `.NET Application Architecture <https://www.microsoft.com/net/learn/architecture>`_ - A deep dive into building professional grade applications with .NET
+
+Lesson 12
+---------
+- `Windows Development Center <https://developer.microsoft.com/en-us/windows>`_ - Microsoft's home for all Windows development
+- `Introduction to WPF in Visual Studio <https://docs.microsoft.com/en-us/dotnet/framework/wpf/getting-started/introduction-to-wpf-in-vs>`_ - WPF is the predecessor to UWP and they are very closely related
+- `Windows Forms <https://docs.microsoft.com/en-us/dotnet/framework/winforms/getting-started-with-windows-forms>`_ - Windows Forms is the predecessor to WPF and was the first desktop application creation tool for C# and .NET
+- `An Introduction to Xamarin Forms <https://docs.microsoft.com/en-us/xamarin/xamarin-forms/get-started/introduction-to-xamarin-forms>`_ - Xamarin Forms uses similar XAML-based technology to create mobile applications for iOS and Android

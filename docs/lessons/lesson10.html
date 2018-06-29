@@ -120,6 +120,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson08.html#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lesson08.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a><ul>
@@ -127,7 +128,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson09.html#resources">Resources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#errata">Errata</a></li>
 </ul>
 </li>
@@ -146,7 +146,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson11.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson11.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson11.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson12.html">Lesson 12: XAML</a><ul>
@@ -158,7 +157,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson12.html#errata">Errata</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="lesson13.html">Lesson 13: Layout Challenges</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="lesson13.html">Lesson 13: Layout</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#prep-work">Prep Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#in-class-work">In-class Work</a></li>
@@ -167,7 +166,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#errata">Errata</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="lesson14.html">Lesson 14: Controls 1</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="lesson14.html">Lesson 14: Navigation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="lesson14.html#prep-work">Prep Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson14.html#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson14.html#in-class-work">In-class Work</a></li>
@@ -266,6 +265,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-4">Lesson 4</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-5">Lesson 5</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-6">Lesson 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-7">Lesson 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-8">Lesson 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-10">Lesson 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-11">Lesson 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-12">Lesson 12</a></li>
 </ul>
 </li>
 </ul>
@@ -303,11 +307,28 @@
 <span id="prep-work"></span><h2>Prep Work<a class="headerlink" href="#prep-work" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=LhI1HGRIC_8806218949">this lesson</a> on Working with LINQ from the C# for Absolute Beginners course</li>
+<li><a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables">Learn</a> how to declare variables using the <code class="docutils literal notranslate"><span class="pre">var</span></code> keyword</li>
+<li>Complete the <a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/working-with-linq">tutorial</a> on LINQ to gain a better understanding of this powerful feature</li>
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=dHjsrIRIC_1806218949">this lesson</a>, Enumerations and the Switch Decision Statement, from the C# for Absolute Beginners course</li>
+<li>Read <a class="reference external" href="https://deviq.com/magic-strings/">this article</a> to understand why hard-coded numbers and strings can lead to problems</li>
 </ul>
 </div>
 <div class="section" id="learning-objectives">
 <span id="learning-objectives"></span><h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Run LINQ queries using query style syntax</li>
+<li>Run LINQ queries using method style syntax</li>
+<li>Understand Lambda expressions</li>
+<li>Filter a list with LINQ</li>
+<li>Sort a list with LINQ</li>
+<li>Loop through a list with LINQ</li>
+<li>Use aggregate function on lists with LINQ</li>
+<li>Declare variables using the <code class="docutils literal notranslate"><span class="pre">var</span></code> keyword</li>
+<li>Get the type of class that an object is</li>
+<li>Retrieve only some properties from a list using LINQ to a new anonymous type</li>
+<li>Use enumerations to limit input</li>
+<li>Use the switch statement to compare longer lists of possibilities</li>
+</ul>
 </div>
 <div class="section" id="in-class-work">
 <span id="in-class-work"></span><h2>In-class Work<a class="headerlink" href="#in-class-work" title="Permalink to this headline">¶</a></h2>
@@ -315,12 +336,25 @@
 </div>
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=W04QuwSIC_1306218949">Working with LINQ Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=dHjsrIRIC_1806218949">Enumerations and the Switch Decision Statement Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Update your program from the previous class that asked the user to enter the name of every student and their ID. This time, replace the foreach loop with LINQ. Upload your program to a new repository called CG 10-1</li>
+<li>Create a program that contains a Student class. You must track the student’s first name, last name, grade (1 - 12), and current GPA (1-4). Store a list of 10 or more fake students in a list. Then, use LINQ to print a list of students with a GPA of 3 or higher that are in the 9th - 12th grade. The list should output their first name, last name, grade and GPA. It should be sorted by highest grade, then highest GPA, then last name, then first name. Upload your program to a new repository called CG 10-2</li>
+<li>Create a program with an enumeration of all students in class’ first name. Ask the user to enter their name. Using a Switch statement, print their last name. Upload your program to a new repository called CG 10-3</li>
+</ul>
 </div>
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b">101 LINQ Samples</a> - A large collection of sample code for LINQ</li>
+</ul>
 </div>
 <div class="section" id="errata">
 <span id="errata"></span><h2>Errata<a class="headerlink" href="#errata" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>The LINQ and Switch projects that Bob makes available for download are written and compiled for the .NET Framework version 4. As a reminder, we are using .NET Core in class, which is a newer version of .NET. In this case, the code is the same for .NET Framework and .NET Core.</li>
+</ul>
 </div>
 </div>
 

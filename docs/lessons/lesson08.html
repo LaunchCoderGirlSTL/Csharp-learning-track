@@ -120,6 +120,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a><ul>
@@ -127,7 +128,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson09.html#resources">Resources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson09.html#errata">Errata</a></li>
 </ul>
 </li>
@@ -146,7 +146,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson11.html#in-class-work">In-class Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson11.html#assignments">Assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson11.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#errata">Errata</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lesson12.html">Lesson 12: XAML</a><ul>
@@ -158,7 +157,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson12.html#errata">Errata</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="lesson13.html">Lesson 13: Layout Challenges</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="lesson13.html">Lesson 13: Layout</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#prep-work">Prep Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#in-class-work">In-class Work</a></li>
@@ -167,7 +166,7 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson13.html#errata">Errata</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="lesson14.html">Lesson 14: Controls 1</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="lesson14.html">Lesson 14: Navigation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="lesson14.html#prep-work">Prep Work</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson14.html#learning-objectives">Learning Objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson14.html#in-class-work">In-class Work</a></li>
@@ -266,6 +265,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-4">Lesson 4</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-5">Lesson 5</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-6">Lesson 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-7">Lesson 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-8">Lesson 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-10">Lesson 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-11">Lesson 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-12">Lesson 12</a></li>
 </ul>
 </li>
 </ul>
@@ -303,11 +307,30 @@
 <span id="prep-work"></span><h2>Prep Work<a class="headerlink" href="#prep-work" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=kCLKbyQIC_9106218949">this lesson</a>, Understanding Scope and Accessibility Modifiers, from the C# for Absolute Beginners course</li>
-<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949">this lesson</a> on Understanding Namespaces and Working with the .NET Class Library from the C# for Absolute Beginners course</li>
+<li>Follow <a class="reference external" href="https://www.microsoft.com/net/learn/get-started/windows">this very short tutorial</a> on how to build and run a program from the command line, without using Visual Studio.</li>
+<li><a class="reference external" href="#">This article</a> should help clarify what .NET Core is today and what its goals are, how it relates to the Microsoft .NET Framework and the fundamentals of the command-line tooling that you can use to get started with .NET Core.</li>
+<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949">this lesson</a> on Understanding Namespaces and Working with the .NET Class Library from the C# for Absolute Beginners course. <strong>Note</strong>: This is a place where there have been a lot of implementation changes between the .NET Framework and .NET Core. See the <a class="reference external" href="lesson08.html#errata">Errata</a> below</li>
+<li>Read all 10 parts of <a class="reference external" href="#">this Classes tutorial</a> and review what you have already learned and extend your knowledge with inheritance, abstraction and interfaces.</li>
 </ul>
 </div>
 <div class="section" id="learning-objectives">
 <span id="learning-objectives"></span><h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Understand how curly braces <code class="docutils literal notranslate"><span class="pre">{</span> <span class="pre">}</span></code> affect the lifetime or scope of a variable</li>
+<li>Fields vs properties</li>
+<li>Understand encapsulation</li>
+<li>Use the public and private accessibility modifiers</li>
+<li>Understand what an assembly is</li>
+<li>Inspect the bin directory for your program’s output when you build it</li>
+<li>Understand the difference between a debug and release version of your program</li>
+<li>Understand what a Namespace is</li>
+<li>Use using statements to reference namespaces</li>
+<li>How to search Microsoft’s documentation from a search engine</li>
+<li>Use the CTRL + .keyboard command to add missing using statements</li>
+<li>Extend a class by inheriting functionality from another class</li>
+<li>Create classes that can’t be used until they are extended by another class</li>
+<li>Create interfaces that only define things a class must do</li>
+</ul>
 </div>
 <div class="section" id="in-class-work">
 <span id="in-class-work"></span><h2>In-class Work<a class="headerlink" href="#in-class-work" title="Permalink to this headline">¶</a></h2>
@@ -316,12 +339,39 @@
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Try to extend the code from class to play a game of War. Hint: create a Game class</li>
-<li>Complete <a class="reference external" href="assignments/assignment2-4.rst">this week’s homework assignment</a> and submit it on Canvas.</li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=LK8n0uQIC_306218949">Understanding Scope and Accessibility Modifiers Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949">Understanding Namespaces and Working with the .NET Class Library Assessment</a> and upload a screenshot of your score into Canvas</li>
+<li>Extend the code from the last card assignment to play a game of War or Blackjack. Hint: create a Game class. Upload your program to a new repository called CG 8-1</li>
+<li>Write a program where tutors have a credit rate to help a student and students have to transfer credits to a tutor for their services. Start by creating your classes in a People folder. Students and tutors both have a first name and last name. Tutors have a cost. This value can be read or updated by any other class. Tutors earn credit from helping students. This value cannot be accessed by any class other than the Tutor class. Create a method that pays a tutor by increasing their earned credit by their cost. Display a message with the tutor’s new credit balance. Use the tutor’s name in the message. Students have a starting amount of credit (100). Set this in the student’s constructor. This value should not be able to be accessed by any other class. Students can earn credit, so create a method that adds credit to a student. A student can pay a tutor, so create a method that pays a tutor. If the student does not have enough credit to cover the cost of tutor, display a message. Use the student’s name in the message. If the student does have enough credit, reduce the student’s current credits based on the tutor cost, pay the tutor and display a success message. Use the tutor’s name in the message. Always display a message after the transaction that shows how many credits the student has left.</li>
 </ul>
+<p>Now, update your Program Main class with the following flow:</p>
+<ol class="simple">
+<li>Create a new student</li>
+<li>Create a new tutor that costs 50 credits</li>
+<li>Create a new tutor that costs 75 credits</li>
+<li>Have the student pay tutor 1, this should produce a success message</li>
+<li>Have the student pay tutor 2, this should produce a failure message</li>
+<li>Give the student 100 more credits</li>
+<li>Have the student pay tutor 2, this should produce a success message</li>
+</ol>
+<p>Upload your program to a new repository called CG 8-2</p>
 </div>
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx">Self-contained .NET Core Applications</a> - A nice article on how to wrap your application as an executable so your user does not need to run the dotnet run command</li>
+<li><a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/core/deploying/runtime-store">Runtime Package Store</a> - Starting with .NET Core 2.0, it’s possible to package against a known set of packages that exist in the target environment</li>
+</ul>
+</div>
+<div class="section" id="errata">
+<span id="errata"></span><h2>Errata<a class="headerlink" href="#errata" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Understanding Namespaces and Working with the .NET Class Library</strong>: The older versions of the .NET Framework would compile an application into .exe file or executable. .NET Core will compile your program into a .dll file or library instead. This is because .NET Core is cross-platform and will also run on Macintosh and Linux. When you ran your program from the command line in this lesson’s tutorial you used the dotnet run command. This command is the executable that is operating system specific instead of your program being compiled for all possible operating systems. This is a very low-level detail that you won’t be dealing with much, but that’s the way it works.</li>
+<li><strong>Understanding Namespaces and Working with the .NET Class Library</strong>: The Global Assembly Cache (GAC) Bob mentions does not exist in .NET Core. Instead, all the assemblies you reference in your application are shipped with your application in the same folder. In version 2.0 of .NET Core, something like the GAC was implemented called the Runtime Package Store to save on disk space and improve performance. Again, this is a low-level detail.</li>
+<li><strong>Understanding Namespaces and Working with the .NET Class Library</strong>: The references folder in .NET Core projects has been replaced with a Dependencies folder.</li>
+<li><strong>Understanding Namespaces and Working with the .NET Class Library</strong>: .NET Core command line projects start with only one using statement (using System) instead of the 5 that were typical in .NET Framework applications.</li>
+<li><strong>Understanding Namespaces and Working with the .NET Class Library</strong>: If you try to write a file to the C drive like in Bob’s example, it might not work. .NET Core has some additional security restrictions to keep programs from manipulating files it shouldn’t. You can get Bob’s code to work by simply giving it only a file name like <code class="docutils literal notranslate"><span class="pre">WriteText.txt</span></code>. The file will appear in the bin folder along with your application.</li>
+</ul>
 </div>
 </div>
 

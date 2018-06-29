@@ -10,14 +10,14 @@
 ## Learning Objectives
 * Make simple logical decisions in your code based on if statements
 * Review the difference between Write() and WriteLine();
-* Understand the difference between = and ==
+* Understand the difference between `=` and `==`
 * Understand what a code block is and how they apply to If statements
 * Extend an If statement with else if and else
 * Use the DRY principle (Don't Repeat Yourself) by eliminating duplicate code
 * Understand variable scope and how it relates to code blocks
 * Understand when you do not need curly braces and how they affect code blocks
-* Assign and concatenate strings with +=
-* Write If decisions using the inline format using ? and :
+* Assign and concatenate strings with `+=`
+* Write If decisions using the inline format using `?` and `:`
 * Format strings with numeric placeholders
 * Understand statements, expressions, operators and operands
 * Declare multiple variables in the same statement
@@ -29,8 +29,8 @@ Here is a video of what we did in class:
 ## Assignments
 * Take the [If Decision Statement Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=gczR4ESIC_8306218949) and upload a screenshot of your score into Canvas.
 * Take the [Operators, Expressions, and Statements Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=vq8jiCSIC_3706218949) and upload a screenshot of your score into Canvas.
-* Create a program that asks the user of the number of a month and outputs the name of the month using the if, else if and else statements. Upload your program to a new repository called CG 3-1.
-* Ask the user to guess a number between 1 and 10. If they enter 8, output You Win!. Otherwise, output You Lose. Do this using an inline if statement. Upload your program to a new repository called CG 3-2.
+* Create a program that asks the user of the number of a month and outputs the name of the month using the `if`, `else if` and `else` statements. Upload your program to a new repository called CG 3-1.
+* Ask the user to guess a number between 1 and 10. If they enter 8, output "You Win!". Otherwise, output "You Lose". Do this using an inline if statement. Upload your program to a new repository called CG 3-2.
 * Create a program to demonstrate your understanding of basic C# skills. Define the following C# terms in your own words: statement, expression, operator, operand as code comments. After each definition, write some code that demonstrates the use of each of these. Upload your program to a new repository called CG 3-3.
 * Create a simple calculator that asks the user to input two different numbers and whether they want to add, subtract, multiple or divide them. Output the answer back to the console. Be sure to include clear code comments to make your code readable to other programmers and your future self. Upload your program to a new repository called CG 3-4.
 

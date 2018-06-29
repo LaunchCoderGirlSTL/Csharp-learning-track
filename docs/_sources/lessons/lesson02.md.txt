@@ -15,7 +15,7 @@
 * Add the GitHub extension to Visual Studio
 * Explain the differences between a solution and project
 * Understand how to add, remove and change file in Visual Studio
-* Understand what the bin folder contains
+* Understand what the `bin` folder contains
 * Work with number values and doing arithmetic
 * Understand code comments using `//` and `/* */`
 * Take input from a user
@@ -44,6 +44,6 @@ Here's a video of what we did in class:
 * [GitHub Succinctly](https://www.syncfusion.com/ebooks/github_succinctly) - A free eBook
 
 ## Errata
-* **Working with Code Files, Projects, and Solutions:** The list of files in Bob's project will be slightly different than in yours. This is because we're using a newer version of .NET  
-* **Working with Code Files, Projects, and Solutions:** Your default folder for projects may be under a Source folder instead of Documents folder. This change depends on the extensions and install options you choose. You can save your solutions and project anywhere you want, but I would discourage saving them to folders like OneDrive or DropBox
+* **Working with Code Files, Projects, and Solutions:** The list of files in Bob's project will be slightly different than in yours. This is because we're using a newer version of .NET.
+* **Working with Code Files, Projects, and Solutions:** Your default folder for projects may be under a Source folder instead of Documents folder. This change depends on the extensions and install options you choose. You can save your solutions and project anywhere you want, but I would discourage saving them to folders like OneDrive or DropBox.
 * **Understanding Data Types and Variables:** Please make sure you select Console Application (.NET Core) as the project types again for these examples and all further examples.

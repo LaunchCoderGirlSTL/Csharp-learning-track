@@ -8,7 +8,7 @@ from recommonmark.transform import AutoStructify
 site_theme_options = {
     'navbar_title': 'CoderGirl C#',
     'navbar_site_name': "Pages",
-    'bootswatch_theme': 'launchcode',
+    'bootswatch_theme': 'codergirl',
 }
 
 project = 'CoderGirl'

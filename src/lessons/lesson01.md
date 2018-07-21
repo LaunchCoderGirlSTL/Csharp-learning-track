@@ -4,7 +4,7 @@
 * Learn about the content and structure covered in the first half of this unit in the [Course Introduction](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) video
 * Read [this article](https://www.microsoft.com/net/learn/what-is-dotnet) to learn about what .NET is and what you can build with it
 * Set up Visual Studio by following along with the Getting Started with Visual Studio [video](https://www.visualstudio.com/vs/getting-started/). When Jon discussed Workloads to choose during setup, choose Universal Windows Platform development and .NET Core cross-platform development
-* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=p90QdGQIC_7106218949), Creating Your First C# Program, from the C# For Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=p90QdGQIC_7106218949) on Creating Your First C# Program from the C# For Absolute Beginners course
 * Learn what's happening within a basic C# program with [this video](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=BQvowJQIC_306218949)
 * Complete all 6 steps of [this in-browser tutorial](https://www.microsoft.com/net/learn/in-browser-tutorial/1) to get some practice with C#
 
@@ -17,11 +17,8 @@
 * Send output from a program to the command line
 * Navigate files and folders in Visual Studio
 
-## In-class Work
-Here's a video of what we did in class:
-
 ## Assignments
-* Take the [Creating Your First C# Program Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=xXJ2mTRIC_1306218949) and upload a screenshot of your score into Canvas
+* Take the [Creating Your First C# Program Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=xXJ2mTRIC_1306218949)
 * Create your first Hello CoderGirl! program. You do not need to turn this in
 * Upload a photo of yourself to Canvas; it will help us all put names to faces
 * Join the [Slack Channel](https://launchcodecommunity.slack.com/) using some form of your real name and upload your picture

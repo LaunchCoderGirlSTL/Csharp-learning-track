@@ -1,13 +1,51 @@
-# Lesson 15: Hamburger Menu Challenge
+# Lesson 15: Styles and Themes
 ## Prep Work
+* Watch and code along with [this second lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=fGLZGr0qB_9405244527) on Common XAML Controls from the Windows 10 Development for Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=fK6rdv0qB_4505244527) on Working with the ScrollViewer from the Windows 10 Development for Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=wnzQoy0qB_6805244527) on Canvas and Shapes from the Windows 10 Development for Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=JRQ0tF1qB_5105244527) on XAML Styles from the Windows 10 Development for Absolute Beginners course
+* Watch and code along with [this lesson](https://arstechnica.com/information-technology/2017/05/taking-a-closer-look-at-microsofts-fluent-design-system/) on XAML Themes from the Windows 10 Development for Absolute Beginners course
+* Read [this article]() on the evolution of designing Windows 10 apps
+* Watch and follow along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=RxLpJACrB_2205244527) from the Windows 10 Development for Absolute Beginners course to create a cheat sheet for yourself
 
 ## Learning Objectives
-
-## In-class Work
-Here is a video of what we did in class:
+* Add a time picker control to a page to choose a time of day
+* Add a calendar date picker control to choose a date
+* Add a calendar view control to see and choose a date or multiple dates
+* Add a flyout control to create a message box
+* Add a menu flyout control to create a popup menu
+* Add an auto suggest control to pick from a list of choices as the user types
+* Add a slider control to pick from a range of values
+* Add a progress bar control to show how much of an operation is complete
+* Bind two controls together so the value of one updates the other in real time
+* Add a progress ring control to show that a process is running
+* Add a scroll viewer to make an area of a page scrollable
+* Draw lines and shapes
+* Create a reusable and consistent visual design across your application
+* Make your application match the user’s Windows theme
+* Make your application adopt a light or dark theme independent of the user’s Windows theme
 
 ## Assignments
+* Take the [Common XAML Controls: Part 2 Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=WwujCt0qB_1005244527)
+* Take the [Working with the ScrollViewer Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=fK6rdv0qB_4505244527)
+* Take the [Canvas and Shapes Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=wnzQoy0qB_6805244527)
+* Take the [XAML Styles Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=mmpi790qB_7405244527)
+* Take the [XAML Themes Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=JRQ0tF1qB_5105244527)
+* Take the [Cheat Sheet Review: Controls, ScrollViewer, Canvas, Shapes, Styles, Themes Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=RxLpJACrB_2205244527)
+* Create a program with a slider control and a text block control.  The value of the text block control should be the value of the slider set using binding.  Upload your program to a new repository called CG 15-1
+* Create a program with a progress bar that goes from 1 to 100.  Have a timer object move the progress 1 point every second until it reaches 100.  Upload your program to a new repository called CG 15-2
+* Create a program with 3 two-dimensional shapes vertically stacked on top of each other: a square, a triangle and a circle.  When you click on any of the shapes have them all move horizontally next to each other.  Upload your program to a new repository called CG 15-3
+* Complete the [Stupendous Styles Challenge](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=udF3ADCrB_1705244527).  Upload your program to a new repository called CG 15-4.  Make sure you don’t watch [Bob’s solution](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=VgkAjDCrB_2005244527) until after you have uploaded your solution.  This solution is in 5 parts and is the largest application you have created to date.  Don’t get discouraged.  It’s the same kind of program you have already been writing, just take it one step at a time.
+* Take each of the Stupendous Styles Challenge Solution Assessments ([MainPage](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=TbLWqFCrB_805244527), [Navigation and DonutPage](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=vLhccHCrB_2505244527), [CoffeePage](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=Hx0gDKCrB_8505244527), [SchedulePage](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=wmhp4KCrB_2005244527) and [CompletePage](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=11CatMCrB_7205244527))
 
 ## Resources
-
-## Errata
+* [Design and Code UWP Apps](https://developer.microsoft.com/en-us/windows/apps/design) – Design guidance for making your apps look professional
+* [XAML theme resources](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/xaml-theme-resources) – Microsoft documentation on themes in UWP apps
+* [XAML Controls Gallery](https://www.microsoft.com/en-us/p/xaml-controls-gallery/9msvh128x2zt) – An application in the Microsoft Store that showcases the various UWP controls
+* [Windows Community Toolkit](https://docs.microsoft.com/en-us/windows/uwpcommunitytoolkit/) and [Sample App](https://www.microsoft.com/en-us/p/windows-community-toolkit-sample-app/9nblggh4tlcq?rtc=1) – Microsoft provides a lot more controls and helper code from creating Windows apps with this toolkit.  Some of the best stuff eventually makes it into core of UWP.  The sample app demonstrates this code in action
+* [Telerik UI for Universal Windows Platform](https://www.telerik.com/universal-windows-platform-ui) – Third party open source controls for you to use in your projects
+* [Metro Studio](https://www.syncfusion.com/downloads/metrostudio) - A collection of over 7,000 flat and wireframe icon templates that can be easily customized to create thousands of unique icons. It also supports creating custom icon font packages from selected sets of icons
+* [The Noun Project](https://thenounproject.com/) - Over a million curated icons, created by a global community
+* [Icon Explorer](http://www.geekchamp.com/icon-explorer/introduction) - The purpose of this project is to organize and make available an extensive set of free symbols/icons that can be used in XAML / HTML by specifying the code of the symbol or as .PNG icons
+* [Game Icons](https://game-icons.net/) - Already 3365 free icons for your games
+* [Icons8](https://icons8.com/) - 70,300 Free Flat Icons in any format, size and color in 20 seconds

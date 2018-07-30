@@ -3,9 +3,12 @@
 * Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=d2zoZizqB_5105632527) on XAML Layout with RelativePanel from the Windows 10 Development for Absolute Beginners course
 * Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=o8QC81zqB_5605632527) on XAML Layout with SplitView from the Windows 10 Development for Absolute Beginners course
 * Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=fjXFi5zqB_3105632527) on Working with Navigation from the Windows 10 Development for Absolute Beginners course
-* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=xwbe1N0qB_9405244527), Common XAML Controls: Part 1, from the Windows 10 Development for Absolute Beginners course
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=xwbe1N0qB_9405244527) on Common XAML Controls from the Windows 10 Development for Absolute Beginners course
 * Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=4DLgEZ0qB_5705244527) on Implementing a Simple Hamburger Navigation Menu from the Windows 10 Development for Absolute Beginners course
-* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=9UzAWg0qB_1205244527), Cheat Sheet Review: Windows 10 Layout Hamburger Navigation and Controls, from the Windows 10 Development for Absolute Beginners course to create a cheat sheet for yourself
+* Watch and code along with [this lesson](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=9UzAWg0qB_1205244527) from the Windows 10 Development for Absolute Beginners course to create a cheat sheet for yourself
+* Complete [this hands-on lab](https://github.com/Windows-Readiness/WinDevHOLs/blob/master/01B Navigation and Back/01. Lab B. Navigation and Back.pdf), to cover the basics of navigation and how to implement it in a simple UWP app.
+* Complete [this hands-on lab](https://github.com/Windows-Readiness/WinDevHOLs/blob/master/02. Adaptive UI/02. Lab. Building an Adaptive UI.pdf), to evolve a fixed layout into an adaptive UI. Initially, the UI will follow more responsive practices.
+* Now that you have learned how to build a hamburger menu from scratch you will learn how to do it the easy way.  Newer versions of UWP have a hamburger menu control built in.  Read [this article](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/navigationview), and watch the embedded video, that shows an updated way to standardize navigation in Windows apps.
 
 ## Learning Objectives
 * Use the relative panel control to handle window resizing
@@ -26,19 +29,18 @@
 * Use Segoes MDL2 Assets font for images
 * Create a custom hamburger menu for multiple-page navigation
 
-## In-class Work
-Here is a video of what we did in class:
-
 ## Assignments
-* Take the [XAML Layout with RelativePanel Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=d2zoZizqB_5105632527) and upload a screenshot of your score into Canvas
-* Take the [XAML Layout with SplitView Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=o8QC81zqB_5605632527) and upload a screenshot of your score into Canvas
-* Take the [Working with Navigation Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=fjXFi5zqB_3105632527) and upload a screenshot of your score into Canvas
-* Take the [Common XAML Controls: Part 1 Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=xwbe1N0qB_9405244527) and upload a screenshot of your score into Canvas
-* Take the [Implementing a Simple Hamburger Navigation Menu Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=4DLgEZ0qB_5705244527) and upload a screenshot of your score into Canvas
-* Take the [Cheat Sheet Review: Windows 10 Layout Hamburger Navigation and Controls Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=9UzAWg0qB_1205244527) and upload a screenshot of your score into Canvas
-* Create a program with 2 pages. The first page has a text box to enter the user's first name and a text box to enter the user's last name. Add a Display Name button that navigates the user to a second page and displays their full name. You should do this by passing the first name and the last name as separate parameters to the second page without using global variables in the application class. The challenge here is that you can only pass a single parameter to another page. Upload your program to a new repository called CG 14-1. **Hint**: Create a Person class
-* Complete the [Hamburger Heaven Challenge](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=5R7qfk0qB_6005244527). Upload your program to a new repository called CG 14-2. Make sure you don't watch [Bob's solution](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=rAS5Nl0qB_7205244527) until after you have uploaded your solution
+* Take the [XAML Layout with RelativePanel Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=d2zoZizqB_5105632527)
+* Take the [XAML Layout with SplitView Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=o8QC81zqB_5605632527)
+* Take the [Working with Navigation Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=fjXFi5zqB_3105632527)
+* Take the [Common XAML Controls: Part 1 Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=xwbe1N0qB_9405244527)
+* Take the [Implementing a Simple Hamburger Navigation Menu Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=4DLgEZ0qB_5705244527)
+* Take the [Cheat Sheet Review: Windows 10 Layout Hamburger Navigation and Controls Assessment](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=9UzAWg0qB_1205244527)
+* Create a nicely laid out four column form that uses each of these controls at least once:  checkbox, radio button, combo box, list box, toggle button, toggle switch, image and button using the Segoe MDL2 Assets font.  Upload your program to a new repository called CG 14-1
+* Create a program with 2 pages. The first page has a text box to enter the user's first name and a text box to enter the user's last name. Add a Display Name button that navigates the user to a second page and displays their full name. You should do this by passing the first name and the last name as separate parameters to the second page without using global variables in the application class. The challenge here is that you can only pass a single parameter to another page. Upload your program to a new repository called CG 14-2. **Hint**: Create a Person class
+* Complete the [Hamburger Heaven Challenge](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=5R7qfk0qB_6005244527). Upload your program to a new repository called CG 14-3. Make sure you don't watch [Bob's solution](https://mva.microsoft.com/en-US/training-courses/windows-10-development-for-absolute-beginners-14541?l=rAS5Nl0qB_7205244527) until after you have uploaded your solution
+* Redo the Hamburger Heaven Challenge using the Navigation View UWP control.  Upload your program to a new repository called CG 14-4
 
 ## Resources
+* [Segoe MDL2 icons](https://docs.microsoft.com/en-us/windows/uwp/design/style/segoe-ui-symbol-font) – A complete list of icons available
 
-## Errata

@@ -19,12 +19,9 @@
 * Use a Dictionary to store a list of objects
 * Initialize properties while declaring a new class without using a constructor
 
-## In-class Work
-Here is a video of what we did in class:
-
 ## Assignments
-* Take the [Creating and Adding References to Assemblies Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Ry6jz0QIC_5706218949) and upload a screenshot of your score into Canvas.
-* Take the [Working with Collections Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=XIMI21QIC_2406218949) and upload a screenshot of your score into Canvas.
+* Take the [Creating and Adding References to Assemblies Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Ry6jz0QIC_5706218949)
+* Take the [Working with Collections Assessment](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=XIMI21QIC_2406218949)
 * Write a static method to find the sum of all the even numbers in a list. This method should be in a class called `NumberCruncher` in its own class library called `NumberUtility`. Within your console project, create a list with at least 10 integers and call your method on the list. Upload your program to a new repository called CG 9-1
 * Write a static method to print out each word in a list that has exactly 5 letters. This method should be in a class called `LetterCruncher` in its own class library called `LetterUtility`. Within your console project, create a list with at least 10 strings and call your method on the list. Upload your program to a new repository called CG 9-2
 * Update the program you just wrote for `LetterCruncher` and add a second overloaded method that takes the number of letters to match instead of being fixed to 5 letters. Also, this version of the method should not print out each word, but instead return a list of only those words. The console program should take this list and print each value to the console. Upload your program to a new repository called CG 9-3

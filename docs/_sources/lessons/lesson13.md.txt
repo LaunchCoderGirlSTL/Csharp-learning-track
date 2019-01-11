@@ -35,3 +35,4 @@
 ## Resources
 * [Rapid XAML Toolkit](https://github.com/Microsoft/Rapid-XAML-Toolkit) -  Build your user interface for you based on your classes.
 * [Application Lifecyle](https://mva.microsoft.com/en-US/training-courses/a-developers-guide-to-windows-10-12618?l=nXtix0pRB_5205095281) – A 1-hour video that goes more in depth on application lifecycle.
+

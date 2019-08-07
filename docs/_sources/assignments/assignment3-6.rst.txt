@@ -1,5 +1,0 @@
-File Handling
-=============
-
-Objectives
-----------

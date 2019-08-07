@@ -1,5 +1,0 @@
-Object Oriented Design
-======================
-
-Objectives
-----------

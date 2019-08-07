@@ -1,5 +1,0 @@
-Decisions and Logic
-===================
-
-Objectives
-----------

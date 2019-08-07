@@ -7,12 +7,13 @@
     <title>Lesson 8: Scope and Namespaces &#8212; CoderGirl  documentation</title>
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/css/launchcode.css" type="text/css" />
-    <link rel="stylesheet" href="https://djwbyvgln9kts.cloudfront.net/launch_ed_style/custom.css" type="text/css" />
-    <script type="text/javascript" src="../_static/documentation_options.js"></script>
+    <link rel="stylesheet" type="text/css" href="../_static/fa/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/launchcode.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
     <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
@@ -38,7 +39,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../index.html"><span><img src="../_static/lc-logo.svg" alt="LaunchCode logo"></span>
+        <a class="navbar-brand" href="../index.html"><span><img src="../_static/lc-ed-logo.png" alt="LaunchCode logo"></span>
           CoderGirl C#</a>
         <span class="navbar-text navbar-version pull-left"><b></b></span>
       </div>
@@ -52,198 +53,39 @@
      id="dLabelGlobalToc"
      data-toggle="dropdown"
      data-target="#"
-     href="../index.html">Pages <b class="caret"></b></a>
+     href="../index.html">Lessons <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul>
+      aria-labelledby="dLabelGlobalToc"><ol class="current">
+<li class="toctree-l1"><a class="reference internal" href="lesson01.html">Lesson 1: Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson02.html">Lesson 2: Projects and Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson03.html">Lesson 3: If Statements and Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson04.html">Lesson 4: For Statements and Arrays</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson05.html">Lesson 5: Methods and While Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson06.html">Lesson 6: Strings and Dates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson07.html">Lesson 7: Classes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 8: Scope and Namespaces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson10.html">Lesson 10: LINQ and Switch Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson11.html">Lesson 11: Exceptions and Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson12.html">Lesson 12: XAML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson13.html">Lesson 13: Layout</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson14.html">Lesson 14: Navigation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson15.html">Lesson 15: Styles and Themes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson16.html">Lesson 16: Adaptive Interfaces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson17.html">Lesson 17: Media</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson18.html">Lesson 18: Web APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson19.html">Lesson 19: File Handling &amp; Monetization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson20.html">Lesson 20: Master Detail Layout</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lesson21.html">Lesson 21: Where to Go from Here</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources Index</a></li>
+</ol>
+<ol>
+<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a></li>
+</ol>
+<ol>
 <li class="toctree-l1"><a class="reference internal" href="../about.html">About This Curriculum</a></li>
-</ul>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="lesson01.html">Lesson 1: Getting Started</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson01.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson01.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson01.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson01.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson01.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson02.html">Lesson 2: Projects and Variables</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson02.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson02.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson02.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson02.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson02.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson03.html">Lesson 3: If Statements and Operators</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson03.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson03.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson03.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson03.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson04.html">Lesson 4: For Statements and Arrays</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson04.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson04.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson04.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson04.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson05.html">Lesson 5: Methods and While Statements</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson05.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson05.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson05.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson05.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson05.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson06.html">Lesson 6: Strings and Dates</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson06.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson07.html">Lesson 7: Classes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson07.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson07.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson07.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson07.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson 8: Scope and Namespaces</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson09.html">Lesson 9: Assemblies and Collections</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson09.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson09.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson09.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson09.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson10.html">Lesson 10: LINQ and Switch Statements</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson10.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson10.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson10.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson10.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson10.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson11.html">Lesson 11: Exceptions and Events</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson11.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson12.html">Lesson 12: XAML</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson12.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson12.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson12.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson12.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson12.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson13.html">Lesson 13: Layout</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson13.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson13.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson13.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson13.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson14.html">Lesson 14: Navigation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson14.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson14.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson14.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson14.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson15.html">Lesson 15: Styles and Themes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson15.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson15.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson15.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson15.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson16.html">Lesson 16: Adaptive Interfaces</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson16.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson16.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson16.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson16.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson16.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson17.html">Lesson 17: Media</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson17.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson17.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson17.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson17.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson17.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson18.html">Lesson 18: Web APIs</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson18.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson18.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson18.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson18.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson18.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson19.html">Lesson 19: File Handling &amp; Monetization</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson19.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson19.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson19.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson19.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson19.html#errata">Errata</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson20.html">Lesson 20: Master Detail Layout</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson20.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson20.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson20.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson20.html#resources">Resources</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="lesson21.html">Lesson 21: Where to Go from Here</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lesson21.html#prep-work">Prep Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson21.html#learning-objectives">Learning Objectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson21.html#assignments">Assignments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson21.html#resources">Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson21.html#continuing-education">Continuing Education</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources Index</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="resources.html#books">Books</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources.html#documentation">Documentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources.html#libraries">Libraries</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources.html#sample-apps">Sample Apps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources.html#tools">Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources.html#training">Training</a></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-1">Lesson 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-2">Lesson 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-3">Lesson 3</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-4">Lesson 4</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-5">Lesson 5</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-6">Lesson 6</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-7">Lesson 7</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-8">Lesson 8</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-10">Lesson 10</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-11">Lesson 11</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#lesson-12">Lesson 12</a></li>
-</ul>
-</li>
-</ul>
+</ol>
 </ul>
 </li>
               
@@ -258,7 +100,8 @@
             
 <form class="navbar-form navbar-right" action="../search.html" method="get">
  <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
+    <label for="q" class="searchLabel">Search</label>
+    <input type="text" name="q" class="form-control" />
  </div>
   <input type="hidden" name="check_keywords" value="yes" />
   <input type="hidden" name="area" value="default" />
@@ -291,11 +134,11 @@
 <div class="section" id="prep-work">
 <span id="prep-work"></span><h2>Prep Work<a class="headerlink" href="#prep-work" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=kCLKbyQIC_9106218949">this lesson</a> about Understanding Scope and Accessibility Modifiers from the C# for Absolute Beginners course</li>
-<li>Follow <a class="reference external" href="https://www.microsoft.com/net/learn/get-started/windows">this very short tutorial</a> on how to build and run a program from the command line, without using Visual Studio</li>
-<li><a class="reference external" href="https://msdn.microsoft.com/en-us/magazine/mt694084.aspx">This article</a> should help clarify what .NET Core is today and what its goals are, how it relates to the Microsoft .NET Framework and the fundamentals of the command-line tooling that you can use to get started with .NET Core</li>
-<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949">this lesson</a> on Understanding Namespaces and Working with the .NET Class Library from the C# for Absolute Beginners course. <strong>Note</strong>: This is a place where there have been a lot of implementation changes between the .NET Framework and .NET Core. See the <a class="reference external" href="lesson08.html#errata">Errata</a> below</li>
-<li>Read all 13 parts of <a class="reference external" href="http://csharp.net-tutorials.com/classes/introduction/">this Classes tutorial</a> and review what you have already learned and extend your knowledge with inheritance, abstraction and interfaces</li>
+<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=kCLKbyQIC_9106218949" target="_blank">this lesson<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> about Understanding Scope and Accessibility Modifiers from the C# for Absolute Beginners course</li>
+<li>Follow <a class="reference external" href="https://www.microsoft.com/net/learn/get-started/windows" target="_blank">this very short tutorial<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> on how to build and run a program from the command line, without using Visual Studio</li>
+<li><a class="reference external" href="https://msdn.microsoft.com/en-us/magazine/mt694084.aspx" target="_blank">This article<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> should help clarify what .NET Core is today and what its goals are, how it relates to the Microsoft .NET Framework and the fundamentals of the command-line tooling that you can use to get started with .NET Core</li>
+<li>Watch and code along with <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949" target="_blank">this lesson<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> on Understanding Namespaces and Working with the .NET Class Library from the C# for Absolute Beginners course. <strong>Note</strong>: This is a place where there have been a lot of implementation changes between the .NET Framework and .NET Core. See the <a class="reference external" href="lesson08.html#errata" target="_blank">Errata<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> below</li>
+<li>Read all 13 parts of <a class="reference external" href="http://csharp.net-tutorials.com/classes/introduction/" target="_blank">this Classes tutorial<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> and review what you have already learned and extend your knowledge with inheritance, abstraction and interfaces</li>
 </ul>
 </div>
 <div class="section" id="learning-objectives">
@@ -320,8 +163,8 @@
 <div class="section" id="assignments">
 <span id="assignments"></span><h2>Assignments<a class="headerlink" href="#assignments" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=LK8n0uQIC_306218949">Understanding Scope and Accessibility Modifiers Assessment</a></li>
-<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949">Understanding Namespaces and Working with the .NET Class Library Assessment</a></li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=LK8n0uQIC_306218949" target="_blank">Understanding Scope and Accessibility Modifiers Assessment<i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+<li>Take the <a class="reference external" href="https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=JUpuxzQIC_5506218949" target="_blank">Understanding Namespaces and Working with the .NET Class Library Assessment<i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
 <li>Extend the code from the last card assignment to play a game of War or Blackjack. Hint: create a Game class. Upload your program to a new repository called CG 8-1</li>
 <li>Write a program where tutors have a credit rate to help a student and students have to transfer credits to a tutor for their services. Start by creating your classes in a People folder. Students and tutors both have a first name and last name. Tutors have a cost. This value can be read or updated by any other class. Tutors earn credit from helping students. This value cannot be accessed by any class other than the Tutor class. Create a method that pays a tutor by increasing their earned credit by their cost. Display a message with the tutor’s new credit balance. Use the tutor’s name in the message. Students have a starting amount of credit (100). Set this in the student’s constructor. This value should not be able to be accessed by any other class. Students can earn credit, so create a method that adds credit to a student. A student can pay a tutor, so create a method that pays a tutor. If the student does not have enough credit to cover the cost of tutor, display a message. Use the student’s name in the message. If the student does have enough credit, reduce the student’s current credits based on the tutor cost, pay the tutor and display a success message. Use the tutor’s name in the message. Always display a message after the transaction that shows how many credits the student has left.</li>
 </ul>
@@ -340,8 +183,8 @@
 <div class="section" id="resources">
 <span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="https://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx">Self-contained .NET Core Applications</a> - A nice article on how to wrap your application as an executable so your user does not need to run the dotnet run command</li>
-<li><a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/core/deploying/runtime-store">Runtime Package Store</a> - Starting with .NET Core 2.0, it’s possible to package against a known set of packages that exist in the target environment</li>
+<li><a class="reference external" href="https://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx" target="_blank">Self-contained .NET Core Applications<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> - A nice article on how to wrap your application as an executable so your user does not need to run the dotnet run command</li>
+<li><a class="reference external" href="https://docs.microsoft.com/en-us/dotnet/core/deploying/runtime-store" target="_blank">Runtime Package Store<i class="fas fa-external-link-alt" aria-hidden="true"></i></a> - Starting with .NET Core 2.0, it’s possible to package against a known set of packages that exist in the target environment</li>
 </ul>
 </div>
 <div class="section" id="errata">

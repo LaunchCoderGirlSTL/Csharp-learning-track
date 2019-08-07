@@ -1,5 +1,0 @@
-Methods and While
-=================
-
-Objectives
-----------

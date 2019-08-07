@@ -1,5 +1,0 @@
-First MVC App
-=============
-
-Objectives
-----------

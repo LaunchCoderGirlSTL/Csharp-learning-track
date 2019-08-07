@@ -11,7 +11,7 @@ sys.path.append(os.path.abspath('../exts'))
 # dictionary below may be overriden here
 site_theme_options = {
     'navbar_title': 'CoderGirl C#',
-    'navbar_site_name': "Pages",
+    'navbar_site_name': "Lessons",
     'bootswatch_theme': 'codergirl',
 }
 
